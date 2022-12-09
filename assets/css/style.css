@@ -31,6 +31,7 @@ h1,h2  {
     float: left;
     font-size:360%;
     font-weight:900;
+    margin-left: 30px;
 }
 
 /*  navigation links */
@@ -95,7 +96,7 @@ h1,h2  {
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     
@@ -136,4 +137,33 @@ h1,h2  {
     right: 150px;
 
     position: absolute;
+}
+
+/* club ethos */
+
+#club-ethos  {
+    height: 600px;
+}
+
+#left-about {
+
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right-about  {
+
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: silver;
+}
+
+#center-about  {
+
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
 }
