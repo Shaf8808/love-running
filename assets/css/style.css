@@ -23,10 +23,40 @@ h1,h2  {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
+    
 }
 
 #logo  {
 
     float: left;
-    font-size: 280%;
+    font-size:360%;
+    font-weight:900;
+}
+
+/*  navigation links */
+
+#menu  {
+
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-weight:900;
+}
+
+#menu, #logo  {
+
+    line-height: 75px;
+}
+
+#menu li  {
+
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+
+#menu a  {
+
+    text-decoration: none;
+    color: inherit;
 }
