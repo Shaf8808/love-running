@@ -104,14 +104,16 @@ h1,h2  {
 /*  creates the level of zoom for hero image */
 
 @keyframes hero-zoom  {
+    
+    0% {
 
-    from  {
-
-        transform: scale(1);
+        transform: scale(1);  
     }
-    to  {
-
+    50%  {
         transform: scale(1.1);
+    }
+    100%  {
+        transform: scale(1);
     }
 }
 
